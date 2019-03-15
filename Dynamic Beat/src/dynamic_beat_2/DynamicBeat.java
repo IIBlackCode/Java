@@ -28,7 +28,7 @@ public class DynamicBeat extends JFrame{
 		introBackGround = new ImageIcon(Main.class.getResource("../images/introBackground.jpg")).getImage();
 		
 	}
-	 
+	
 	//ㅎ
 	public void paint(Graphics g) {
 		screenImage = createImage( Main.SCREEN_WIDTH, Main.SCREEN_HEIGHT );	//1280x720 크기의 이미지를 만들어 screenImage에 저장
