@@ -13,7 +13,7 @@ class Number {
 		num1[6] = 13;
 		num1[7] = 15;
 
-		// Ä«µå ¼¯±â
+		// ì¹´ë“œ ì„žê¸°
 		int temp = 0;
 		for (int i = 0; i < num1.length; i++) {
 			int random = (int) (Math.random() * 8);
@@ -26,7 +26,7 @@ class Number {
 			System.out.println("num" + i + " [" + num1[i] + "] ");
 		}
 
-		// Ä«µå »Ì±â
+		// ì¹´ë“œ ë½‘ê¸°
 		for (int i = 0; i < num1.length; i++) {
 			System.out.print(" [" + num1[i] + "] ");
 		}
@@ -47,7 +47,7 @@ class Number {
 		num1[7] = 14;
 		num1[8] = 15;
 
-		// Ä«µå ¼¯±â
+		// ì¹´ë“œ ì„žê¸°
 		int temp = 0;
 		for (int i = 0; i < num1.length; i++) {
 			int random = (int) (Math.random() * 9);
@@ -60,7 +60,7 @@ class Number {
 			System.out.println("num" + i + " [" + num1[i] + "] ");
 		}
 
-		// Ä«µå »Ì±â
+		// ì¹´ë“œ ë½‘ê¸°
 		for (int i = 0; i < num1.length; i++) {
 			System.out.print(" [" + num1[i] + "] ");
 		}
@@ -80,7 +80,7 @@ class Number {
 		num1[6] = 14;
 		num1[7] = 15;
 
-		// Ä«µå ¼¯±â
+		// ì¹´ë“œ ì„žê¸°
 		int temp = 0;
 		for (int i = 0; i < num1.length; i++) {
 			int random = (int) (Math.random() * 9);
@@ -93,7 +93,7 @@ class Number {
 			System.out.println("num" + i + " [" + num1[i] + "] ");
 		}
 
-		// Ä«µå »Ì±â
+		// ì¹´ë“œ ë½‘ê¸°
 		for (int i = 0; i < num1.length; i++) {
 			System.out.print(" [" + num1[i] + "] ");
 		}
@@ -113,7 +113,7 @@ class Number {
 		num1[6] = 14;
 		num1[7] = 15;
 
-		// Ä«µå ¼¯±â
+		// ì¹´ë“œ ì„žê¸°
 		int temp = 0;
 		for (int i = 0; i < num1.length; i++) {
 			int random = (int) (Math.random() * 9);
@@ -126,7 +126,7 @@ class Number {
 			System.out.println("num" + i + " [" + num1[i] + "] ");
 		}
 
-		// Ä«µå »Ì±â
+		// ì¹´ë“œ ë½‘ê¸°
 		for (int i = 0; i < num1.length; i++) {
 			System.out.print(" [" + num1[i] + "] ");
 		}

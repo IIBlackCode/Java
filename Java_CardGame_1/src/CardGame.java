@@ -10,20 +10,20 @@ public class CardGame {
 		int sum = 0;
 		
 		
-		System.out.println("°ÔÀÓÀ» ½ÃÀÛÇÏ½Ã°Ú½À´Ï±î?[y]");
+		System.out.println("ê²Œì„ì„ ì‹œì‘í•˜ì‹œê² ìŠµë‹ˆê¹Œ?[y]");
 		String input0 = scan.nextLine();
 		if (input0.equals("y")) {
-			System.out.println("1~15Áß ¼ıÀÚ ÇÏ³ª¸¦ ¼±ÅÃÇÏ½Ã¿À");
+			System.out.println("1~15ì¤‘ ìˆ«ì í•˜ë‚˜ë¥¼ ì„ íƒí•˜ì‹œì˜¤");
 			
 			card.q1();
-			System.out.println("ÀÌÁß¿¡ ¼ıÀÚ°¡ ÀÖ³ª¿ä[y/n]");
+			System.out.println("ì´ì¤‘ì— ìˆ«ìê°€ ìˆë‚˜ìš”[y/n]");
 			String input1 = scan.nextLine();
 			if (input1.equals("y")) {
 				sum = 1;
 			}
 			
 			card.q2();
-			System.out.println("ÀÌÁß¿¡ ¼ıÀÚ°¡ ÀÖ³ª¿ä[y/n]");
+			System.out.println("ì´ì¤‘ì— ìˆ«ìê°€ ìˆë‚˜ìš”[y/n]");
 			
 			String input2 = scan.nextLine();
 			if (input2.equals("y")) {
@@ -31,14 +31,14 @@ public class CardGame {
 			}
 			
 			card.q3();
-			System.out.println("ÀÌÁß¿¡ ¼ıÀÚ°¡ ÀÖ³ª¿ä[y/n]");
+			System.out.println("ì´ì¤‘ì— ìˆ«ìê°€ ìˆë‚˜ìš”[y/n]");
 			String input3 = scan.nextLine();
 			if (input3.equals("y")) {
 				sum = sum + 4;
 			}
 			
 			card.q4();
-			System.out.println("ÀÌÁß¿¡ ¼ıÀÚ°¡ ÀÖ³ª¿ä[y/n]");
+			System.out.println("ì´ì¤‘ì— ìˆ«ìê°€ ìˆë‚˜ìš”[y/n]");
 			String input4 = scan.nextLine();
 			if (input4.equals("y")) {
 				sum = sum + 8;
@@ -50,6 +50,6 @@ public class CardGame {
 		
 		
 		
-		System.out.println("´ç½ÅÀÌ ¼±ÅÃÇÑ ¼ıÀÚ´Â "+sum + "ÀÔ´Ï´Ù");
+		System.out.println("ë‹¹ì‹ ì´ ì„ íƒí•œ ìˆ«ìëŠ” "+sum + "ì…ë‹ˆë‹¤");
 	}
 }
